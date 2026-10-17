@@ -103,7 +103,7 @@ peak = float(np.max(np.abs(actual)))
 rms = float(np.sqrt(np.mean(actual ** 2)))
 seam = actual[0] - actual[-1]
 qa = {
-    'type': 'private self-initiated original synthesis capability probe',
+    'type': 'self-initiated original synthesis capability study',
     'main_render_count': 1, 'correction_render_count': 0,
     'format': params, 'riff_chunks': chunks,
     'peak_linear': peak, 'peak_dbfs': 20 * math.log10(peak),
@@ -118,7 +118,7 @@ qa = {
     'limitations': [
         'No subjective listening or professional music-quality acceptance established.',
         'No game mix, engine integration, long-duration repetition/fatigue or buyer fit assessed.',
-        'Seam measurements establish sample continuity only, not perceptually seamless acceptance.',
+        'Seam measurements describe sample-level boundary differences; they do not establish perceptual seamlessness.',
         'No buyer audio, names, game assets, commercial song, external samples or vocals used.',
         'Only a short generic ambient probe; no complete save-room or chase composition delivered.',
     ],
